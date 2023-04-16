@@ -798,7 +798,7 @@ cd $LOCATION
 
 greenMessage "Downloading latest SinusBot."
 
-su -c "wget -q https://github.com/TheOneVision-V/SinusDownload/releases/download/Release/sinusbot.current.tar.bz2" $SINUSBOTUSER
+su -c "wget -q https://www.sinusbot.com/pre/sinusbot-1.0.1-amd64.tar.bz2" $SINUSBOTUSER
 if [[ ! -f sinusbot.current.tar.bz2 && ! -f sinusbot ]]; then
   errorExit "Download failed! Exiting now"!
 fi
